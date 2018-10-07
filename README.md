@@ -2,6 +2,18 @@
 ----------------------
 
 Implement a console-based social networking application (similar to Twitter) satisfying the scenarios below.
+### Install
+
+Install node.js
+Install npm
+move to folder
+
+Npm install - to add node_modules
+
+npm install -g social-cli
+npm link - to run in bash as "social"
+npm start - to run index.js
+npm test - for testing with karma
 
 ### Scenarios
 
