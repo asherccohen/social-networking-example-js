@@ -1,0 +1,45 @@
+{
+    "name": "social-networking-js-master",
+    "version": "1.0.0",
+    "description": "social-networking-kata-js",
+    "main": "index.js",
+    "scripts": {
+        "test": "karma start",
+        "webpack": "webpack -w",
+        "start": "node index.js",
+        "scss": "sass --watch src/scss/app.scss:public/app.css"
+    },
+    "bin": {
+        "social": "bin/social"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asherccohen/social-networking-kata-js.git"
+    },
+    "keywords": [
+        "social"
+    ],
+    "author": "Asher Cassetto Cohen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/asherccohen/social-networking-kata-js/issues"
+    },
+    "homepage": "https://github.com/asherccohen/social-networking-kata-js#readme",
+    "devDependencies": {
+        "babel-core": "^6.24.1",
+        "babel-loader": "^6.4.1",
+        "babel-plugin-add-module-exports": "^1.0.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-es2016": "^6.24.1",
+        "babel-preset-es2017": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "jasmine-core": "^2.6.1",
+        "karma": "^1.7.0",
+        "karma-chrome-launcher": "^2.1.1",
+        "karma-firefox-launcher": "^1.0.1",
+        "karma-jasmine": "^1.1.0",
+        "karma-sourcemap-loader": "^0.3.7",
+        "karma-webpack": "^2.0.3",
+        "webpack": "^2.5.1"
+    }
+}
