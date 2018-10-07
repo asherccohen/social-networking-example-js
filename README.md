@@ -7,7 +7,9 @@ Implement a console-based social networking application (similar to Twitter) sat
 **Dependencies**: Install required dependencies
 
 > \> Install node.js
+
 > \> Install npm
+
 > \> Move to root folder of the project
 
 To install the needed modules
