@@ -8,7 +8,6 @@ const readline = require('readline').createInterface({
     output: process.stdout
 });
 console_out('Welcome to my Social Networking Kata!Type a name and then a command to start...');
-/* const Timeline = require('./Timeline'); */
 const User = require('./src/User');
 const Message = require('./src/Message');
 

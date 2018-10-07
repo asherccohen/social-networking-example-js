@@ -2,9 +2,6 @@
 const Timeline = require('./Timeline');
 
 module.exports = class User {
-    /*     name() {
-            return this.name;
-        } */
 
     constructor(name) {
         this.timeline = new Timeline();
@@ -40,9 +37,7 @@ module.exports = class User {
         }
 
         return messages.sort(
-            (a, b) => a.id > b.id
+            (a, b) => a.createdAt > b.createdAt
         );
     }
 };
-/* export default user;
-module.exports = user; */
