@@ -58,7 +58,7 @@ function chat_command(activeUser, cmd, arg) {
             activeUser.publishMessage(message);
             for (let index = 0; index < activeUser.timeline.messages.length; index++) {
                 const element = activeUser.timeline.messages[index].text;
-                console_out(activeUser.name + ' has posted: ' + element + ' (1 thousand years ago)');
+                /* console_out(activeUser.name + ' has posted: ' + element + ' (1 thousand years ago)'); */
             }
 
             break;

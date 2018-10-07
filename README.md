@@ -26,6 +26,17 @@ To start the application (this runs index.js)
 To test with karma
 > \> npm test
 
+**Commands**: 
+
+To send a message
+> \> Type user then " -> " without brackets and then a message. Eg. Alice -> Hello world!
+
+To follow a user
+> \> Type user then " follows " without brackets and then another user. Eg. Alice follows Bob
+
+To see wall
+> \> Type user then " wall " without brackets. Eg. Alice wall
+
 ### Scenarios
 
 **Posting**: Alice can publish messages to a personal timeline

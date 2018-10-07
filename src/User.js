@@ -35,7 +35,6 @@ module.exports = class User {
                 messages.push(message);
             }
         }
-
         return messages.sort(
             (a, b) => a.createdAt > b.createdAt
         );

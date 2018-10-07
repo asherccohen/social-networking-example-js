@@ -9,7 +9,10 @@ module.exports = class Message {
 
     constructor(text) {
         this.id = Message.nextId();
-        console.log('id', Message.nextId());
+        /* console.log('', Message.nextId()); */
+        console.log(text + ' (1 thousand years ago)');
+        /* console.log(text); */
+
         this.text = text;
         this.createdAt = Date.now();
     }

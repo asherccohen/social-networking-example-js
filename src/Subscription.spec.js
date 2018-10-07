@@ -35,6 +35,7 @@ describe('Subscribing', () => {
 
         const bob = new User('Bob')
         const messageB = new Message('Have fun!')
+
         bob.publishMessage(messageB)
 
         const messageC = new Message('bye!')
@@ -53,8 +54,11 @@ describe('Subscribing', () => {
             charlie,
         ])
         expect(bob.subscribers).toEqual([
-            charlie,
-        ])
+                charlie,
+            ])
+            /*         console.log(message);
+                    console.log(messageB);
+                    console.log(messageC); */
 
         expect(charlie.subscriptionsTimeLine()).toEqual([
             message,
