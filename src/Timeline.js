@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/* Define a class for the timeline, a container of messages for each user */
 module.exports = class Timeline {
     constructor() {
         var messages = [];
@@ -8,5 +9,3 @@ module.exports = class Timeline {
         this.messages.push(message);
     }
 };
-
-/* module.exports = Timeline; */

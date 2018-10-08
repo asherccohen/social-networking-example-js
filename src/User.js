@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/* Define the class for the User and export it */
 const Timeline = require('./Timeline');
 
 module.exports = class User {
@@ -24,7 +25,7 @@ module.exports = class User {
     subscribe(user) {
         this.subscribers.push(user);
     }
-    subscriptionsTimeLine() {
+    subscriptionsTimeLine() { //Read a streamline of messages from all users subscribed
         const messages = [];
         for (let i = 0; i < this.subscriptions.length; i++) {
             const user = this.subscriptions[i];

@@ -10,6 +10,8 @@ Implement a console-based social networking application (similar to Twitter) sat
 
 > \> Install npm
 
+> \> git clone the repo
+
 > \> Move to root folder of the project
 
 To install the needed modules

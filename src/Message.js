@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/* Define a class for a message and export it */
 module.exports = class Message {
     static _nextId() {
         return 0;
